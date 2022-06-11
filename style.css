@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: auto;
+    background-color: white;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body button {
+    border: 4px solid black;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 8px;
+    margin: 16px;
+}
+
+.container {
+    height: 720px;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .row {
+    flex: 1;
+    display: flex;
+}
+
+.row .square {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.hover {
+    background-color: red;
+}
